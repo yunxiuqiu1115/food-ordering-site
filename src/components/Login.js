@@ -14,11 +14,6 @@ const Login = ({ label, onLogin }) => {
 
 	const handleSubmit = (name) => {
 		onLogin();
-		window.dataLayer.push({
-			event: 'Login',
-			user: name,
-			timezone: 'Chicago',
-		});
 		window.localStorage.setItem('userID', name);
 		window.localStorage.setItem('isAuth', true);
 		setOpen(false);

@@ -9,11 +9,6 @@ const MainPage = () => {
 	const [isAuth, setAuth] = React.useState(window.localStorage.getItem('isAuth'));
 	const handleLogOut = () => {
 		setAuth(false);
-		window.dataLayer.push({
-			event: 'Log Out',
-			user: user,
-			timezone: 'Chicago',
-		});
 		window.localStorage.clear();
 	};
 	return (

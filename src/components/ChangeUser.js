@@ -25,11 +25,6 @@ const ChangeUser = () => {
 	};
 
 	const handleSubmit = (name) => {
-		window.dataLayer.push({
-			event: 'Login',
-			user: name,
-			timezone: 'Chicago',
-		});
 		window.localStorage.setItem('userID', name);
 		setOpen(false);
 	};

@@ -25,14 +25,6 @@ const CartButton = ({ foodID, price, name, labelName }) => {
   };
 
   const handleSubmit = () => {
-    window.dataLayer.push({
-      event: "Add to cart",
-      user: user,
-      timezone: "Chicago",
-      foodID: foodID,
-      total: selectedIndex + 1,
-      totalPrice: ((selectedIndex + 1) * price).toFixed(2),
-    });
 
     let foodList = JSON.parse(window.localStorage.getItem("foodList")) || {};
     const foodItem = "foodID" + foodID;

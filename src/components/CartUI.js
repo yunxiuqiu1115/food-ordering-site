@@ -9,11 +9,6 @@ const CartUI = () => {
 	const [isAuth, setAuth] = React.useState(window.localStorage.getItem('isAuth') || false);
 	const handleLogOut = () => {
 		setAuth(false);
-		window.dataLayer.push({
-			event: 'Log Out',
-			user: user,
-			timezone: 'Chicago',
-		});
 		window.localStorage.clear();
 	};
 	return (

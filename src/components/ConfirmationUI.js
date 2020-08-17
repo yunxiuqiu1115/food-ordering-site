@@ -9,11 +9,6 @@ const ConfirmationUI = () => {
 	const [isAuth, setAuth] = React.useState(window.localStorage.getItem('userID'));
 	const handleLogOut = () => {
 		setAuth(false);
-		window.dataLayer.push({
-			event: 'Log Out',
-			user: user,
-			timezone: 'Chicago',
-		});
 		window.localStorage.clear();
 	};
 	return (
