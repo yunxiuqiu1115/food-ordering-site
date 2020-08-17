@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Soondubu",
+        "image": "../images/soondubu.jpg",
+        "price": 12.99,
+        "description": "Made with freshly curdled soft tofu, vegetables.",
+        "inCart" : false,
+        "count": 0,
+        "total": 0
+    },
+    {
+        "id": 2,
+        "name": "Sushi",
+        "image": "../images/sushi.jpeg",
+        "price": 19.99,
+        "description": "Made with vinegared rice with some sugar and salt, accompanying a variety of seafood, vegetables, and tropical fruits.",
+        "inCart" : false,
+        "count": 0,
+        "total": 0
+    },    
+    {
+        "id": 3,
+        "name": "Pasta",
+        "image": "../images/pasta.jpg",
+        "price": 14.99,
+        "description": "An Italian-American dish consisting of spaghetti, tomato sauce and meatballs.",
+        "inCart" : false,
+        "count": 0,
+        "total": 0
+    }
+]
