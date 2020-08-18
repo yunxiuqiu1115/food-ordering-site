@@ -3,7 +3,6 @@ import { BtnNoneOutLine } from "../style/styled";
 import { Link } from "react-router-dom";
 
 const Purchase = () => {
-  const foodList = JSON.parse(window.localStorage.getItem("foodList")) || {};
   const purchase = () => {
     window.localStorage.removeItem("foodList");
   };
