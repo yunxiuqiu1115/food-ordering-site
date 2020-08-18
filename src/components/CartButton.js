@@ -14,7 +14,6 @@ import { ListItem } from "@material-ui/core";
 
 const CartButton = ({ foodID, price, name, labelName }) => {
   const options = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-  const user = window.localStorage.getItem("userID");
   const [selectedIndex, setSelectedIndex] = React.useState(0);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [open, setOpen] = React.useState(false);
