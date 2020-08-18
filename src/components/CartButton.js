@@ -25,7 +25,6 @@ const CartButton = ({ foodID, price, name, labelName }) => {
   };
 
   const handleSubmit = () => {
-
     let foodList = JSON.parse(window.localStorage.getItem("foodList")) || {};
     const foodItem = "foodID" + foodID;
     let original;
