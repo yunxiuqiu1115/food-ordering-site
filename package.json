@@ -29,6 +29,10 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunxiuqiu1115/food-ordering-site.git"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
