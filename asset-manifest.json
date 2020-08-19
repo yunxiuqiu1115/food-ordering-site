@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/food-ordering-site/static/css/main.f17c661f.chunk.css",
+    "main.js": "/food-ordering-site/static/js/main.ba750bd2.chunk.js",
+    "main.js.map": "/food-ordering-site/static/js/main.ba750bd2.chunk.js.map",
+    "runtime-main.js": "/food-ordering-site/static/js/runtime-main.a7c04eee.js",
+    "runtime-main.js.map": "/food-ordering-site/static/js/runtime-main.a7c04eee.js.map",
+    "static/css/2.652d1c86.chunk.css": "/food-ordering-site/static/css/2.652d1c86.chunk.css",
+    "static/js/2.160f9c09.chunk.js": "/food-ordering-site/static/js/2.160f9c09.chunk.js",
+    "static/js/2.160f9c09.chunk.js.map": "/food-ordering-site/static/js/2.160f9c09.chunk.js.map",
+    "index.html": "/food-ordering-site/index.html",
+    "precache-manifest.8cfa0821f9a5b15aa000527cbe5519fc.js": "/food-ordering-site/precache-manifest.8cfa0821f9a5b15aa000527cbe5519fc.js",
+    "service-worker.js": "/food-ordering-site/service-worker.js",
+    "static/css/2.652d1c86.chunk.css.map": "/food-ordering-site/static/css/2.652d1c86.chunk.css.map",
+    "static/css/main.f17c661f.chunk.css.map": "/food-ordering-site/static/css/main.f17c661f.chunk.css.map",
+    "static/js/2.160f9c09.chunk.js.LICENSE.txt": "/food-ordering-site/static/js/2.160f9c09.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/food-ordering-site/static/media/muli-latin-900italic.fb9b3ba4.woff2",
+    "static/media/pikachu.gif": "/food-ordering-site/static/media/pikachu.81f6252e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7c04eee.js",
+    "static/css/2.652d1c86.chunk.css",
+    "static/js/2.160f9c09.chunk.js",
+    "static/css/main.f17c661f.chunk.css",
+    "static/js/main.ba750bd2.chunk.js"
+  ]
+}
