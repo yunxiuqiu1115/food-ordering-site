@@ -1,5 +1,7 @@
 This project made use of [Create React App](https://github.com/facebook/create-react-app).
 
+Visit it [here](https://food-ordering-site.vercel.app/)
+
 ## Initial Setup
 run `npm install && npm run start`
 
