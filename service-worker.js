@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/food-ordering-site/precache-manifest.8cfa0821f9a5b15aa000527cbe5519fc.js"
+  "/food-ordering-site/precache-manifest.1c521f91d124910f7c86ab55de223fa2.js"
 );
 
 self.addEventListener('message', (event) => {
